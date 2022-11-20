@@ -5,6 +5,7 @@ radio.set_transmit_power(7)
 is_question= False
 preums = "?"
 def on_forever():
+    global is_question
     if not is_question :
         basic.show_icon(IconNames.ASLEEP)
     else :

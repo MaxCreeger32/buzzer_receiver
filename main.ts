@@ -5,6 +5,7 @@ radio.setTransmitPower(7)
 let is_question = false
 let preums = "?"
 basic.forever(function on_forever() {
+    
     if (!is_question) {
         basic.showIcon(IconNames.Asleep)
     } else {
